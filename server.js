@@ -1,10 +1,5 @@
 const assert = require('assert');
 
-const MongoClient = require('mongodb').MongoClient;
-const ObjectID = require('mongodb').ObjectID;
-
-const mongourl = ''; 
-const dbName = 'test';
 
 const express = require('express');
 const bodyParser = require('body-parser');
