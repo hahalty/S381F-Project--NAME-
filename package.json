@@ -4,7 +4,7 @@
     "author": "Chen Weijie, Chen Zhanyi, Hau Hei Wan, Zhong Guzhi",
     "version": "0.0.2",
     "engines": {
-        "node": "^21.10.0"
+        "node": "^14.17.0"
     },
     "dependencies": {
         "cookie-session": "latest",
