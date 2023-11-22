@@ -2,7 +2,7 @@
     "name": "server",
     "description": "COMPS381F project",
     "author": "Chen Weijie, Chen Zhanyi, Hau Hei Wan, Zhong Guzhi",
-    "version": "0.0.2",
+    "version": "0.0.1",
     "engines": {
         "node": "^14.17.0"
     },
