@@ -7,13 +7,13 @@
         "node": ">10.0.0"
     },
     "dependencies": {
-        "cookie-session": "latest",
+        "assert": "^1.4.1",
         "body-parser": "^1.18.3",
+        "cookie-session": "latest",
         "ejs": "*",
         "express": "*",
         "mongodb": "*",
-        "assert": "^1.4.1"
-        
+        "mongoose": "^8.0.1"
     },
     "engine": "node >= 12.0.0",
     "scripts": {

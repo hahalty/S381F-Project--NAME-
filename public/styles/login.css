@@ -130,6 +130,7 @@ body {
   background-color: #ffffff;
   border-radius: 0.4rem;
   flex-shrink: 0;
+  margin-top: 500px;
 }
 .login-5sw .form-Dcm .forgot-password-xRF {
   margin-left: 15.4rem;
@@ -143,3 +144,88 @@ body {
   flex-shrink: 0;
 }
 
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  
+}
+
+#create-link {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: Montserrat, 'Source Sans Pro';
+  font-size: 80px;
+  border: 10px solid black;
+  top: -80%;
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  transform: translateX(-100%);
+  
+}
+
+
+
+#read-link {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: Montserrat, 'Source Sans Pro';
+  font-size: 80px;
+  border: 10px solid black;
+  top: -80%;
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  transform: translateX(100%);
+  
+}
+#update-link {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: Montserrat, 'Source Sans Pro';
+  font-size: 80px;
+  border: 10px solid black;
+  top: 40%;
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  transform: translateX(-100%);
+  
+}
+#delete-link {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: Montserrat, 'Source Sans Pro';
+  font-size: 80px;
+  border: 10px solid black;
+  top: 40%;
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  transform: translateX(100%);
+  
+}
+
+
+
+
+#backtohome-link {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: Montserrat, 'Source Sans Pro';
+  font-size: 50px;
+  border: 10px solid black;
+  top: 200%;
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  
+}
