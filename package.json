@@ -1,10 +1,10 @@
 {
     "name": "server",
     "description": "COMPS381F project",
-    "author": "Chen Weijie, Chen Zhanyi, Hau Hei Wan, Zhong Guzhi",
+    "author": "Lau Tsz Yin",
     "version": "0.0.1",
     "engines": {
-        "node": "^10.0.0"
+        "node": ">10.0.0"
     },
     "dependencies": {
         "cookie-session": "latest",
