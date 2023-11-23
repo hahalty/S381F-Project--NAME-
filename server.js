@@ -1,6 +1,6 @@
     const assert = require('assert');
 
-
+    
 
 
 
@@ -18,6 +18,10 @@
 
     var documents = {};
     //Main Body
+    app.use(express.static('public'));
+    
+    
+    
     app.set('view engine', 'ejs');
     app.use(session({
         userid: "session",  
@@ -32,23 +36,23 @@
 
     app.get('/', function(req, res){
         if(!req.session.authenticated){
-            console.log("...Not authenticated; directing to login");
-            res.redirect("/login");
+            console.log("...Not authenticated; directing to dashboard-login");
+            res.redirect("/dashboard-login");
         }else{
-            res.redirect("/login");
+            res.redirect("/dashboard-login");
         }
         console.log("...Hello, welcome back");
     });
 
     //login
-    app.get('/login', function(req, res){
-        console.log("...Welcome to login page.")
-        res.sendFile(__dirname + '/public/login.html');
-        return res.status(200).render("login");
+    app.get('/dashboard-login', function(req, res){
+        console.log("...Welcome to dashboard-login page.")
+        res.sendFile(__dirname + '/public/dashboard-login.html');
+        return res.status(200).render("dashboard-login");
     });
 
-    app.post('/login', function(req, res){
-        console.log("...Handling your login request");
+    app.post('/dashboard-login', function(req, res){
+        console.log("...Handling your dashboard-login request");
         for (var i=0; i<usersinfo.length; i++){
             if (usersinfo[i].name == req.body.username && usersinfo[i].password == req.body.password) {
             req.session.authenticated = true;
@@ -64,7 +68,7 @@
     app.get('/logout', function(req, res){
         req.session = null;
         req.authenticated = false;
-        res.redirect('/login');
+        res.redirect('/dashboard-login');
     });
 
     app.get('/home', function(req, res){
