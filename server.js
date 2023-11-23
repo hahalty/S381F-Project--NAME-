@@ -149,8 +149,8 @@
     });
     
     app.get('/read', function(req, res){
-        console.log("...Welcome to the read page!");
-        const collection = db.test.find();
+        console.log("...Welcome to the create page!");
+        return res.status(200).render("create");
 
 
     });

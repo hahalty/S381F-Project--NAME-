@@ -1,10 +1,10 @@
 
 
-Group: XX
+Group: 82
 Name: 
 Lau Tsz Yin(12890357)
 
-Application link: https://projectsample381.render.com/
+Application link: https://s381f-project-stock.onrender.com
 
 ********************************************
 # Login
@@ -26,3 +26,11 @@ After successful login, userid is stored in seesion.
 In the home page, each user can log out their account by clicking logout.
 
 ********************************************
+# Home Page 
+There is four CRUD function
+
+There is a back to home
+
+
+
+THESE FUNCTION is not complete!!
